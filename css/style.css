@@ -88,10 +88,40 @@ h2 + p{
 .email-collector{
     width: 80%;
     max-width: 300px;
+    padding: 1em 0;
 }
 input, .btn{
     width: 100%;
+    border-radius: 5px;
 }
+
+.btn{
+    display: inline-block;
+    padding: .5em 1.5em;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn-cta{
+    margin-bottom: .5em;
+    background-image: linear-gradient(to right,#F9D423,#e65c00);
+}
+.btn:focus{
+    outline: none;
+    font-size: 1rem;
+  
+}
+input{
+    font-family: inherit;
+    text-align: inherit;
+    margin-bottom: 1em;
+    padding:.5em;
+    border:1px solid #404040;
+    
+}
+
  /* ================
  media query 
  ================== */
